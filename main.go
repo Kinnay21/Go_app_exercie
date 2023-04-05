@@ -239,7 +239,7 @@ func main() {
 	// Open the database connection
 	// createDbConnexion()
 	var err error
-	db, err = sql.Open("mysql", "root:Hfosbj2554++@tcp(localhost:3306)/charging_stations")
+	db, err = sql.Open("mysql", "root:*****@tcp(localhost:3306)/charging_stations")
 	if err != nil {
 		panic(err.Error())
 	}
